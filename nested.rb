@@ -78,11 +78,11 @@ def adding_matz
           :languages => ["C"]
         }
      }
-binding.pry
+
 		a = {:yukihiro_matsumoto => {:known_for => "Ruby"}}
  b = {:yukihiro_matsumoto => {:languages => ["LISP", "C"]}}
  a[:yukihiro_matsumoto] = a[:yukihiro_matsumoto].merge(b[:yukihiro_matsumoto])
-
+binding.pry
 
 
 
